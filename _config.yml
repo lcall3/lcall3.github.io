@@ -1,1 +1,2 @@
-theme: jekyll-theme-leap-day
+# building settings
+remote-theme: mmistakes/minimal-mistakes
