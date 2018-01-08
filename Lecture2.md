@@ -41,3 +41,31 @@ By this time, we should know what needs to be done.
 5. Keep track of progress (GitHub and Trello)
 6. Build on success
    - Start simple and add incremental features at a time
+
+# Challenges
+
+## Motor Group
+
+### Rotary
+
+**Number of poles** are important part of the design. Poorly designed motor with bad choice of number of poles can cause **cogging**, which "eats up" torque.
+
+### Mechanical Design
+
+**Mounting points** are need to be in consideration for components such as motors, load, and sensors. Consider **friction** and **binding**. **Radial load** is the load along the radial axis acted on the motor shaft. The **trust load** is the load along the length-axis of the shaft. Constraints to limit these loads are required.
+
+### Electrical Designed
+
+**High currents** causes sparking when communication happens. Open circuit inductors causes sparking. Switching logic for the motors. Position sensing for the motors.
+
+### Stubs and Drivers
+
+## Control Group
+
+A microcontroller need to be picked. The **control frequency** for which everything is consistent of is important. Filtering of derivative signals (from high-frequency noise). Design **homing** procedures of relative sensors. 
+
+A **simulation** is required to understand the models and identify the parameters.
+
+For electronics, specify **interconnections**. Don't overlook **heat sinks** if they are required. 
+
+Develop **PWM** and **Encoder Logic**. It's important to distinguish which specific tasks need to be implemented in software or hardware. The more stuff needs to be done in software, the lower the *control frequency*. 
