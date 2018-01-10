@@ -1,2 +1,10 @@
+# basic options
+title: ELEC 391 Project Page
+author: LCALL3
+email: mansurhe@outlook.com
+description: Project page for ELEC 391 project course on motors and controls
+github_username: lcall3
+
 # building settings
+markdown: kramdown
 remote-theme: mmistakes/minimal-mistakes
