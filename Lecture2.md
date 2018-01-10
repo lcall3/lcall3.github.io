@@ -69,3 +69,9 @@ A **simulation** is required to understand the models and identify the parameter
 For electronics, specify **interconnections**. Don't overlook **heat sinks** if they are required. 
 
 Develop **PWM** and **Encoder Logic**. It's important to distinguish which specific tasks need to be implemented in software or hardware. The more stuff needs to be done in software, the lower the *control frequency*. 
+
+### Stubs and Drivers
+
+**Stubs** include current driver. Scopes and LEDs can be used to test is. 
+
+**Drivers** include **encoders**. The desired paths that is output from the controller.
