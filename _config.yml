@@ -14,9 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: LCALL3
+title_separator: "|"
 email: i@muchen.ca
 description: "Team X of ELEC 391 Project Course"
 github_username: lcall3
+repository: "lcall3/lcall3.github.io"
 minimal_mistakes_skin: air
 
 # Build settings
@@ -28,6 +30,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+search: true
 
 
 # Plugins (previously gems:)
@@ -66,6 +69,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      words_per_minute: 120
       comments: true
       share: true
       related: true
