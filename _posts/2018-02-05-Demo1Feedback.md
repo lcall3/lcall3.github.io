@@ -8,8 +8,6 @@ toc_label: "Contents"
 toc_icon: "bars"
 ---
 
-
-
 ## Logistics
 
 - The score for motors are higher -> The score for control is scaled
